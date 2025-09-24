@@ -88,21 +88,10 @@ node server.js
 - ล็อกอิน: `/#/login`
 - โปรไฟล์: `/#/profile`
 
-## 7) ทดสอบ API (สรุป)
+## 7) ทดสอบ API 
 - `POST /api/register` — สมัครสมาชิก (กำหนด cookie JWT ให้)
 - `POST /api/login` — ล็อกอิน (username + password)
 - `POST /api/logout` — ล็อกเอาต์ (ล้าง cookie)
 - `GET  /api/profile` — ต้องมี cookie JWT
 
-## 8) อัพขึ้น GitHub (สรุปคำสั่ง)
-```bash
-# ในโฟลเดอร์โปรเจกต์หลักที่มี public/ และ server/
-git init
-git add .
-git commit -m "Initial commit: unit fullstack test"
-git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
-git push -u origin main
-```
 
-> **หมายเหตุ**: มีไฟล์ `.gitignore` ช่วยกันไม่ให้ `node_modules/` และ `.env` ถูก push
