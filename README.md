@@ -15,11 +15,11 @@
 │  └─ index.html
 └─ server
    ├─ routes/ auth.js         # API: /api/register /api/login /api/profile /api/logout
-   ├─ sql/ create_members.sql # สร้างตาราง members
+   ├─ create_members.sql # สร้างตาราง members
    ├─ db.js                   # pg Pool
    ├─ server.js               # express app + static + CORS + cookie
    ├─ package.json
-   └─ .env (คัดลอกจาก .env.example)
+   └─ env.example
 ```
 
 ---
